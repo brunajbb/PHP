@@ -1,0 +1,11 @@
+<?php
+echo "Digite um numero inteiro" . PHP_EOL;
+
+$numero = readline('Numero:');
+
+
+if ($numero % 2 == 0) {
+    echo "O numero informado é par" . PHP_EOL;
+} else{
+    echo "O numero informado é impar" . PHP_EOL;
+};
